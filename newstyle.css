@@ -394,6 +394,9 @@ form .btn{
     html{
         font-size: 55%;
     }
+    .portfolio-section .portfolio-box  p{
+        overflow: scroll;
+    }
 } 
 @media(max-width:991px){
     .header{
@@ -413,6 +416,9 @@ form .btn{
     }
     .contact{
         min-height: auto;
+    }
+    .portfolio-section .portfolio-box  p{
+        overflow: scroll;
     }
 }
 @media(max-width:768px){
@@ -470,10 +476,16 @@ form .btn{
         position: relative;
         left: 5px;
         }
+        .portfolio-section .portfolio-box  p{
+            overflow: scroll;
+        }
 } 
 @media(max-width:617px){
     .portfolio .portfolio-section{
         grid-template-columns: repeat(1,1fr);
+    }
+    .portfolio-section .portfolio-box  p{
+        overflow: scroll;
     }
 }
 @media(max-width:450px){
@@ -486,6 +498,9 @@ form .btn{
     .portfolio-section .portfolio-box{
         position: relative;
         left: 5px;
+        }
+        .portfolio-section .portfolio-box  p{
+            overflow: scroll;
         }
 }
 @media(max-width:350px){
@@ -506,10 +521,16 @@ form .btn{
         position: relative;
         left: 5px;
         }
+        .portfolio-section .portfolio-box  p{
+            overflow: scroll;
+        }
 }
 @media(max-width:320px){
     .portfolio-section .portfolio-box{
     position: relative;
     left: 5px;
     }
+    .portfolio-section .portfolio-box  p{
+    overflow: scroll;
+}
 }
