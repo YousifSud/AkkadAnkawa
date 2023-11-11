@@ -466,6 +466,10 @@ form .btn{
     .portfolio .portfolio-section{
         grid-template-columns: repeat(2,1fr);
     }
+    .portfolio-section .portfolio-box{
+        position: relative;
+        left: 5px;
+        }
 } 
 @media(max-width:617px){
     .portfolio .portfolio-section{
@@ -479,6 +483,10 @@ form .btn{
     .input-box input{
         width: 100%;
     }
+    .portfolio-section .portfolio-box{
+        position: relative;
+        left: 5px;
+        }
 }
 @media(max-width:350px){
     .home-img img{
@@ -494,6 +502,10 @@ form .btn{
         text-align: center;
         margin-top: 2rem;
     }
+    .portfolio-section .portfolio-box{
+        position: relative;
+        left: 5px;
+        }
 }
 @media(max-width:320px){
     .portfolio-section .portfolio-box{
