@@ -26,7 +26,7 @@ menubar.classList.toggle('bx-x')
 menubar.classList.toggle('active')
 }
  var type=new Typed('.textline',{
-    strings:['Nadi Akkad Ankawa','Sports Club','Welcome'],
+    strings:['Nadi Akkad','Sports Club','Welcome'],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
