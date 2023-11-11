@@ -495,3 +495,9 @@ form .btn{
         margin-top: 2rem;
     }
 }
+@media(max-width:320px){
+    .portfolio-section .portfolio-box{
+    position: relative;
+    left: 5px;
+    }
+}
