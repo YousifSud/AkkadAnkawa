@@ -1,0 +1,4 @@
+- root
+  - players
+    - index2.html
+  - index.html
